@@ -1,0 +1,227 @@
+.mario {
+    position: absolute;
+    width: 20%;
+    margin-top: 20%;
+    left: 40%;
+    animation-name: mario;
+    animation-duration: 4s;
+    opacity: 0;
+}
+@keyframes mario {
+    0% {
+        position: absolute;
+        left: -80%;
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        position: absolute;
+        left: 100%;
+        opacity: 0;
+    }
+}
+.mario_jump {
+    position: absolute;
+    right: 10%;
+    margin-top: 5%;
+    width: 15%;
+    opacity: 0;
+    animation-name: mario_jump;
+    animation-duration: 6s;
+}
+@keyframes mario_jump {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    95% {
+        opacity: 1;
+    }
+}
+.map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    animation-name: move;
+    animation-duration: 5s;
+}
+@keyframes move {
+    0% {
+        position: absolute;
+        left: -100%;
+    }
+    100% {
+        position: absolute;
+        left: 0%;
+    }
+}
+.treasure {
+    position: absolute;
+    width: 100%;
+}
+.layer1 {
+    position: absolute;
+    width: 26%;
+    margin-top: 5%;
+    left: 22.5%;
+}
+.layer1:hover {
+    position: absolute;
+    margin-top: 4%;
+}
+.layer2 {
+    position: absolute;
+    width: 33%;
+    margin-top: 2.9%;
+    left: 54.5%;
+}
+.layer2:hover {
+    position: absolute;
+    margin-top: 1.5%;
+}
+.layer3 {
+    position: absolute;
+    width: 32%;
+    margin-top: 20%;
+    left: 3.1%;
+}
+.layer3:hover {
+    position: absolute;
+    margin-top: 19%;
+}
+.layer4 {
+    position: absolute;
+    width: 30%;
+    margin-top: 20.3%;
+    left: 37.5%;
+}
+.layer4:hover {
+    position: absolute;
+    margin-top: 19.5%;
+}
+.layer5 {
+    position: absolute;
+    width: 28%;
+    margin-top: 22%;
+    left: 68%;
+}
+.layer5:hover {
+    position: absolute;
+    margin-top: 21%;
+}
+.layer6 {
+    position: absolute;
+    width: 39.8%;
+    margin-top: 33.2%;
+    left: 12%;
+}
+.layer6:hover {
+    position: absolute;
+    margin-top: 32%;
+}
+.question {
+    position: absolute;
+    margin-top: 45%;
+    width: 4%;
+    right: 5%;
+    
+    animation-name: question;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes question {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 4%;
+    }
+}
+.frame {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    border-radius: 1%;
+    animation-name: frame;
+    animation-duration: 8s;
+}
+@keyframes frame {
+    0% {
+        position: absolute;
+        margin-top: -50%;
+        opacity: 0;
+    }
+    70% {
+        position: absolute;
+        margin-top: -40%;
+        opacity: 0;
+    }
+    100% {
+        position: absolute;
+        margin-top: 0;
+    }
+}
+.form {
+    position: absolute;
+    margin-top: 40%;
+    right: 0;
+    width: 50%;
+    height: 80%;
+}
+.template {
+    position: absolute;
+    margin-top: 40%;
+    left: 0;
+    width: 30%;
+}
+.banner {
+    position: absolute;
+    margin-top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100vh;    
+}
+.banner #text {
+    position: absolute;
+    margin-top: 30%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    font-size: 10em;
+    color: rgb(0, 0, 0);
+}
+.banner .clouds {
+    position: absolute;
+    margin-top: 1%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+.banner .clouds img {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(3);
+    }
+}

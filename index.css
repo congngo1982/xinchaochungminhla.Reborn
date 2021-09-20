@@ -1,0 +1,179 @@
+.img_intro {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.button_play {
+    position: absolute;
+    margin-top: 0;
+    width: 5%;
+}
+.button {
+    position: absolute;
+    margin-top: 10%;
+    width: 10%;
+    left: 65%;
+}
+.button:hover {
+    margin-top: 9%;
+    width: 12%;
+}
+.guild {
+    position: absolute;
+    margin-top: 8%;
+    left: 20%;
+    width: 25%;
+}
+.image {
+    position: absolute;
+    margin-top: 8%;
+    left: 20%;
+    width: 25%;
+    background-color: blanchedalmond;
+}
+.latern {
+    position: absolute;
+    width: 20%;
+}
+.latern1 {
+    margin-top: 10%;
+    left: 0%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+.latern2 {
+    margin-top: 10%;
+    left: 10%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+}
+.latern3 {
+    margin-top: 10%;
+    left: 20%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+.latern4 {
+    margin-top: 10%;
+    left: 30%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+}
+.latern5 {
+    margin-top: 10%;
+    left: 40%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+}
+.latern6 {
+    margin-top: 10%;
+    left: 50%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 3.5s;
+    animation-fill-mode: both;
+}
+.latern7 {
+    margin-top: 10%;
+    left: 60%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 3.5s;
+    animation-fill-mode: both;
+}
+.latern8 {
+    margin-top: 50%;
+    left: 80%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+}
+.latern9 {
+    margin-top: 50%;
+    left: 10%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+}
+.latern10 {
+    margin-top: 50%;
+    left: 20%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 5.5s;
+    animation-fill-mode: both;
+}
+.latern11 {
+    margin-top: 50%;
+    left: 30%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 5.5s;
+    animation-fill-mode: both;
+}
+.latern12 {
+    margin-top: 50%;
+    left: 40%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 4.5s;
+    animation-fill-mode: both;
+}
+.latern13 {
+    margin-top: 50%;
+    left: 50%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+}
+.latern14 {
+    margin-top: 50%;
+    left: 60%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+}
+.latern15 {
+    margin-top: 50%;
+    left: 70%;
+    animation-name: latern;
+    animation-duration: 5s;
+    animation-delay: 6.5s;
+    animation-fill-mode: both;
+}
+@keyframes latern {
+    0% {
+        position: absolute;
+        margin-top: 20%;
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+    }
+    100% {
+        position: absolute;
+        margin-top: -20%;
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">   
+    <title>.Reborn | Hello chào mừng đến với .reborn</title>
+</head>
+<body>   
+    <audio loop preload="auto" id="audio">
+        <source src="circus.mp3" type="audio/mpeg">
+    </audio>
+    <div class="intro">        
+        <img class="img_intro" src="midautum2.jpg" alt="">
+        <img onclick="playPause()" class="button_play" src="button_play.png" alt="">        
+        <a href="reborn.html"><img class="button" src="button1.png" alt=""></a>        
+    </div>   
+    <div>
+        <img class="latern1 latern" src="latern.png" alt="">
+        <img class="latern2 latern" src="latern.png" alt="">
+        <img class="latern3 latern" src="latern.png" alt="">
+        <img class="latern4 latern" src="latern.png" alt="">
+        <img class="latern5 latern" src="latern.png" alt="">
+        <img class="latern6 latern" src="latern.png" alt="">
+        <img class="latern7 latern" src="latern.png" alt="">
+        <img class="latern8 latern" src="latern.png" alt="">
+        <img class="latern9 latern" src="latern.png" alt="">
+        <img class="latern10 latern" src="latern.png" alt="">
+        <img class="latern11 latern" src="latern.png" alt="">
+        <img class="latern12 latern" src="latern.png" alt="">
+        <img class="latern13 latern" src="latern.png" alt="">
+        <img class="latern14 latern" src="latern.png" alt="">
+        <img class="latern15 latern" src="latern.png" alt="">
+    </div>
+</body>
+<script type="text/javascript">
+    var audio = document.getElementById('audio');
+    var count = 0;
+    function playPause(){
+        if(count == 0){
+            count = 1;
+            audio.play();               
+        } else {
+            count = 0;
+            audio.pause();
+        }
+    }
+</script>
+</html>
