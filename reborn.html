@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+    <title>Chơi hết mình cùng .Reborn nhé <333</title>
+</head>
+
+<body>
+    <audio loop preload="auto" id="audio">
+        <source src="videoplayback.mp3" type="audio/mpeg">
+    </audio>
+    <img class="mario" src="mario.gif" alt="">
+    <img class="mario_jump" src="mario_jump.gif" alt="">
+    <div class="map">
+        <img class="treasure" src="midautumncake.jpg" alt="">
+        <img onclick="showImage('question_1.png')" class="hathuongduong" src="hat_huong_duong.png" alt="">
+        <img onclick="showImage('question_2.png')" class="bot" src="bot.png" alt="">
+        <img onclick="showImage('question_3.png'); playPause()" class="hatsen" src="hat_sen.png" alt="">
+        <img onclick="showImage('question_4.png')" class="dauxanh" src="nhan_dau_xanh.png" alt="">
+        <img onclick="showImage('question_5.png')" class="hatbi" src="hat_bi.png" alt="">
+        <img onclick="showImage('question_6.png')" class="trungmuoi" src="trung_muoi.png" alt="">
+        <img onclick="showImage('guild1.png')" class="question" src="question.png" alt="">
+    </div>
+    <div class="window">
+        <img id="my_image" class="frame" src="guild1.png" alt="">
+    </div>
+    <iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLScOu1fdiD_zf71sI1Y6gmUv--ZGotgb5TUwTh4q2JzjBd__-g/viewform?embedded=true" width="559" height="714" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>    <div class="image">
+    <div class="image">
+        <div class="gift">Đây là 1 món quà nhỏ của .Reborn hãy tải về và chơi cùng chúng mình nhé</div>
+        <a href="https://drive.google.com/file/d/18va433Vlyc_D6Tf3zOVta6ir4yThZGpn/view?usp=sharing" target="_bank"><img class="template" src="theme.jpg" alt=""></a>
+    </div>
+</body>
+<script type="text/javascript">
+    var audio = document.getElementById('audio');
+    var count = 0;
+    function playPause(){
+        if(count == 0){
+            count = 1;
+            audio.play();               
+        } else {
+            count = 0;
+            audio.pause();
+        }
+    }
+</script>
+</html>
